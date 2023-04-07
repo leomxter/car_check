@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-def HomePage(request):
+def home(request):
     context = {
         "title": 'Home'
     }
